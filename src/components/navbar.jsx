@@ -24,7 +24,7 @@ const Navbar = () => {
           ))}
         </div>
 
-        {/* Mobile Menu Button */}
+        {/* Mobile Menu Buttons */}
         <button onClick={() => setIsOpen(!isOpen)} className="md:hidden text-slate-400 hover:text-teal-400">
           <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
             {isOpen ? (
