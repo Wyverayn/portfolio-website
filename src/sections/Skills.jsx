@@ -72,7 +72,7 @@ const Skills = () => {
             <div className="flex flex-wrap gap-2">
               {category.skills.map((skill, idx) => (
                 <span 
-                  key={idx}
+                  key={idx} 
                   className="px-2.5 py-1 rounded bg-slate-900/60 text-teal-400 text-xs font-mono border border-slate-800 hover:bg-slate-900 transition-colors"
                 >
                   {skill}
